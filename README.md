@@ -9,4 +9,6 @@ In addition to its practical goals, this project serves as a learning platform f
 
 ## What's multithread about in C++?
 
-First of all, we have to understand what is multithreading about in C++. We use multithreading to divide a larger program into smaller executable parts, so called threads. The created threads are independent from each other, but they use the same resources like memory. By using multithreading in our C++ codebase(s) we can improve the performance of our program. This is done by utilizing multiple cores of our CPU. However, multithreading makes our programs faster it also opens the door for more vulnerabilities. Making mistakes while writing our code using multithreading can happen easier than choosing other concepts.
+Multithreading in C++ allows a program to be divided into smaller, concurrently executable units called threads. These threads operate independently but share the same system resources, such as memory. By leveraging multithreading, developers can significantly enhance program performance through better utilization of multi-core processors.
+
+However, while multithreading can improve execution speed and responsiveness, it also introduces additional complexity and potential for errors. Improper synchronization, race conditions, and other concurrency-related issues can lead to subtle and hard-to-detect bugs, making multithreaded programming more error-prone compared to sequential or single-threaded approaches.
