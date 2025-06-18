@@ -18,7 +18,7 @@ std::string EnterWhichFile(){
   if(std::filesystem::exists(file)){
     return file;
   } else {
-    return "Error";
+    return "Error the file name does not exist.";
   }
 }
 
@@ -31,3 +31,8 @@ std::vector<std::string> ReturnFiles(){
   return StoreFiles;
 }
 
+int main(){
+  std::string Result = EnterWhichFile();
+  std::cout << Result;
+
+}
