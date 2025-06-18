@@ -1,0 +1,8 @@
+/home/benedek-kaibas/Documents/concur-check/build/CMakeFiles/intrinsics_gen.dir
+/home/benedek-kaibas/Documents/concur-check/build/CMakeFiles/omp_gen.dir
+/home/benedek-kaibas/Documents/concur-check/build/CMakeFiles/acc_gen.dir
+/home/benedek-kaibas/Documents/concur-check/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/benedek-kaibas/Documents/concur-check/build/CMakeFiles/clang-tablegen-targets.dir
+/home/benedek-kaibas/Documents/concur-check/build/CMakeFiles/concur_check.dir
+/home/benedek-kaibas/Documents/concur-check/build/CMakeFiles/edit_cache.dir
+/home/benedek-kaibas/Documents/concur-check/build/CMakeFiles/rebuild_cache.dir
