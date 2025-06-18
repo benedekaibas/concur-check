@@ -4,11 +4,6 @@
 #include <vector>
 #include <filesystem>
 
-struct Files{
-  std::string err_file;
-};
-
-Files obj1;
 
 std::string EnterWhichFile(){
   std::string file;
@@ -24,11 +19,11 @@ std::string EnterWhichFile(){
 
 
 std::vector<std::string> ReturnFiles(){
+  std::vector<std::string> StoreFile;
+  std::string file = EnterWhichFile();
+  StoreFile.push_back(file);
 
-  std::vector<std::string> StoreFiles;
-  StoreFiles.push_back(obj1.err_file);
-
-  return StoreFiles;
+  return StoreFile;
 }
 
 int main(){
